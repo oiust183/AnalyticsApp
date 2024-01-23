@@ -15,3 +15,6 @@ RUN install2.r --error --skipinstalled \
 	purrr
 
 COPY ./appv3.R ./app.R
+USER shiny
+
+EXPOSE 3838
