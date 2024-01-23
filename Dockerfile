@@ -10,5 +10,5 @@ RUN install2.r --error --skipinstalled \
 	radiant \
 	purrr
 
-COPY ./appv3.R /srv/shiny-server/app/app.R
+COPY ./appv3.R /srv/shiny-server/index.R
 
