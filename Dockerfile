@@ -1,5 +1,5 @@
 FROM rocker/shiny:latest
-
+RUN rm -rf /srv/shiny-server/*
 RUN install2.r --error --skipinstalled \
    shinythemes \
   shinyWidgets \
